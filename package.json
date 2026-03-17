@@ -1,0 +1,30 @@
+{
+  "name": "react_learning",
+  "version": "1.0.0",
+  "description": "Become react master ",
+  "scripts": {
+    "dev": "parcel index.html --port 5173",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HIMMMANSHU/react-learning.git"
+  },
+  "author": "Himanshu Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HIMMMANSHU/react-learning/issues"
+  },
+  "homepage": "https://github.com/HIMMMANSHU/react-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
