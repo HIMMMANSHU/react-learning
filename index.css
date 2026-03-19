@@ -1,0 +1,48 @@
+.header{
+display: flex;
+justify-content: space-between;
+border: 2px solid black;
+border-radius: 10px;
+}
+.logo{
+    width: 100px;
+    padding-left: 20px
+}
+.navItem{
+    padding: 10px 20px;
+}
+.navItem>ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.navItem>ul>li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+}
+.rest-card{
+    margin: 5px;
+    width: 200px;
+   
+    padding: 5px;
+}
+.rest-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+.search{
+padding: 15px;
+}
+.restname{
+    padding: 5px;
+}
+.foodlogo{
+    width: 100%;
+
+}
+.restro-container{
+    display: flex;
+    flex-wrap: wrap;
+}
