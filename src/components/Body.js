@@ -1,5 +1,7 @@
 import RestroCard from "./Restcard";
 import { useState,useEffect } from "react";
+import Shimmer from "./Shimmer";
+import Search from "./Search";  
 
 
 const Body = ()=>{
@@ -26,12 +28,17 @@ const Body = ()=>{
 
         setlist(restaurants)
     }
+
+    if (list.length===0){
+        return<Shimmer/>
+    }
     
-
-
     return(
+   
+             
         <div className='body'>
             <div className='filter'>
+            <Search />
                 <button className="filter-btn" onClick={()=>{
                     console.log("clicked")
                 }}>Top rated</button>
