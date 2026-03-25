@@ -9,7 +9,6 @@ const Search = ()=>{
             setsearchtext(e.target.value)
         }}/>
         <button className="searchbutton" onClick={()=>{
-            console.log(searchtext)
         }}>
             search
         </button>
